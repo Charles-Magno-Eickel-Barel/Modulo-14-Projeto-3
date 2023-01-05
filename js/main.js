@@ -27,7 +27,9 @@ $(document).ready(function(){
         },
         invalidHandler: function(evento, validador) {
             let camposIncorretos = validador.numberOfInvalids();
-            if (camposIncorretos) {
+            if (camposIncorretos == 1) {
+                alert(`Existem ${camposIncorretos} campo incorreto`)
+            } else {
                 alert(`Existem ${camposIncorretos} campos incorretos`)
             }
         },
