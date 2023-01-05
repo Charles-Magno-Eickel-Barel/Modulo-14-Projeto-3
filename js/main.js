@@ -33,7 +33,7 @@ $(document).ready(function(){
         },
     })
 
-    $('#bandeira-da-revolução button').click(function(){
+    $('#bandeira-da-revolução  button, #perseguicao button, #turbulencia button, #batalha-decisiva button').click(function(){
         const destino = $('#historia');
 
         $('html').animate({
